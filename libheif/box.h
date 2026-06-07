@@ -784,7 +784,7 @@ public:
   void set_size(uint32_t width, uint32_t height)
   {
     m_image_width = width;
-    m_image_height = height;
+    m_image_height = width;
   }
 
   std::string dump(Indent&) const override;
